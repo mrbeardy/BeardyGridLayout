@@ -3,6 +3,16 @@
 This package fixes an issue in the UGUI Grid Layout Group where child elements
 are not properly aligned after they wrap around.
 
+### Before
+
+![image](https://user-images.githubusercontent.com/578902/110239792-c1bdad80-7f40-11eb-85ce-df37d2013e89.png)
+
+### After
+
+![image](https://user-images.githubusercontent.com/578902/110239796-c5e9cb00-7f40-11eb-96f5-e09266a98a87.png)
+
+This issue happens because as it wraps around, it uses the width or height of the main axis to determine how much space is required for the overflowing cells, causing the offset to be based on a width of more cells than there are in that row/column.
+
 ## Known Issues
 
 The original requirement for this was to fix the issue outlined above, however since the Grid
