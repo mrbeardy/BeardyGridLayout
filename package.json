@@ -2,7 +2,7 @@
   "name": "studio.beardy.grid-layout-group",
   "displayName": "Beardy's Grid Layout Group",
   "description": "Fixes child-alignment in the grid-layout-group.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.4",
   "type": "tool"
 }
